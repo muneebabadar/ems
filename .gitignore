@@ -1,0 +1,6 @@
+node_modules/
+.env
+client/dist/
+__pycache__/
+.pytest_cache/
+test-results/

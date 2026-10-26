@@ -1,0 +1,14 @@
+{
+  "name": "employee-attendance",
+  "private": true,
+  "scripts": {
+    "build": "npm --prefix client install && npm --prefix client run build && npm --prefix server install",
+    "start": "node server/src/index.js",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "create-user": "npm --prefix server run create-user --"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

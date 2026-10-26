@@ -1,0 +1,18 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #f3f4f6; color: #111827; }
+.card { max-width: 640px; margin: 2rem auto; padding: 1.5rem; background: #fff; border-radius: 10px; box-shadow: 0 1px 4px rgba(0,0,0,.1); }
+.card.narrow { max-width: 380px; }
+.center { text-align: center; margin-top: 3rem; }
+header { display: flex; justify-content: space-between; align-items: center; }
+h1 { margin: 0; font-size: 1.4rem; }
+h2 { font-size: 1.1rem; margin-top: 2rem; }
+label { display: block; margin-bottom: 1rem; font-size: .9rem; }
+input { display: block; width: 100%; margin-top: .25rem; padding: .55rem; border: 1px solid #d1d5db; border-radius: 6px; font-size: 1rem; }
+.btn { padding: .7rem 1.4rem; border: 0; border-radius: 6px; background: #2563eb; color: #fff; font-size: 1rem; cursor: pointer; }
+.btn:disabled { background: #16a34a; opacity: .8; cursor: not-allowed; }
+.mark { margin: 1.5rem 0; }
+.link { background: none; border: 0; color: #2563eb; cursor: pointer; }
+.muted { color: #6b7280; }
+.error { color: #dc2626; }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: .5rem; border-bottom: 1px solid #e5e7eb; }
